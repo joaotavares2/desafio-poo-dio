@@ -1,6 +1,6 @@
 package org.example.dominio;
 
-public class Curso extends Conteudo{
+public class Curso extends Conteudo {
 
     private int cargaHoraria;
 
@@ -9,10 +9,6 @@ public class Curso extends Conteudo{
         return XP_PADRAO * cargaHoraria;
     }
 
-    public Curso() {
-    }
-
-
     public int getCargaHoraria() {
         return cargaHoraria;
     }
@@ -20,13 +16,5 @@ public class Curso extends Conteudo{
     public void setCargaHoraria(int cargaHoraria) {
         this.cargaHoraria = cargaHoraria;
     }
-
-    @Override
-    public String toString() {
-        return "Curso{" +
-                "titulo='" + getTitulo() + '\'' +
-                ", descricao='" + getDescricao() + '\'' +
-                ", cargaHorariaa=" + cargaHoraria +
-                '}';
-    }
 }
+
